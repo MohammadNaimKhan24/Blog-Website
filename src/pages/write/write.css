@@ -1,0 +1,79 @@
+.write {
+  padding-top: 50px;
+}
+
+.writeImg {
+  width: 70vw;
+  height: 340px;
+  margin-left: 150px;
+  object-fit: cover;
+}
+
+.writeForm {
+  position: relative;
+}
+
+.writeFormGroup {
+  margin-left: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.fileIcon {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid;
+  color: darkslateblue;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.fileTitle {
+  padding: 20px;
+  font-size: 30px;
+  border: none;
+  width: 50vw;
+  font-family: "Vareal Round", serif;
+}
+
+.fileText {
+  padding: 20px;
+  font-size: 20px;
+  resize: none;
+  width: 70vw;
+  border: none;
+  overflow: hidden;
+  font-weight: 300;
+  color: #666;
+  line-height: 24px;
+  height: 100vh;
+}
+
+.fileTitle:focus,
+.fileText:focus {
+  outline: none;
+}
+
+.writeSubmit {
+  position: absolute;
+  top: 20px;
+  right: 240px;
+  background-color: darkslateblue;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.writeSubmit:hover {
+  background-color: transparent;
+  border: 3px solid darkslateblue;
+  color: #666;
+}
